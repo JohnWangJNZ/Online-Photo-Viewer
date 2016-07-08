@@ -1,14 +1,16 @@
 # Online-Photo-Viewer
 Online photo amendment app
-![image](https://cloud.githubusercontent.com/assets/17579915/16677275/18d39966-4528-11e6-948c-145373b055ad.png)
+![image](https://cloud.githubusercontent.com/assets/17579915/16684925/cec6ae24-455b-11e6-8831-38156a3b071a.png)
 
 # Current Completed Functions
 
 1. Upload local image
 2. Scale the image
 3. Save the image
+4. Draw on the image
 
 #The Upcoming Functions
 1. Crop the image
-2. Draw on the image
-3. To be continue...
+2. Change the painter colors
+3. Change the painter weight
+4. To be continue...
