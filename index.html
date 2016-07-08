@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Online Photo Viewer</title>
-		<link rel="stylesheet" type="text/css" href="css/photo.css">
-	</head>
-	<body>
-		
-		<h1>Online Photo Viewer</h1>
-		<div id="appContainer">
-			<div id="funcBar"></div>
-			<canvas id="canvas">
-				Oops! your browser doesn't support canvas!
-			</canvas>
-		</div>
+<head>
+	<title>Online Photo Viewer</title>
+	<link rel="stylesheet" type="text/css" href="css/photo.css">
+</head>
+<body>
 
-	</body>
+	<h1>Online Photo Viewer</h1>
+	<div id="appContainer">
+		<div id="funcBar">
+
+			<div class="func-item">
+				<span class="func-name">Upload your photo:</span>
+				<input type="file" >
+			</div>
+
+
+			<div class="func-item">	
+				<span class="func-name">Scale:</span>
+				<input type="range" min="0.5" max="4.0" step="0.02" value="1.0" disabled="true" />
+				<span id="note">Upload Photo to start</span>
+			</div>
+
+
+		</div>
+		<canvas id="canvas">
+			Oops, Please Update your browser for a fantastic experience！
+		</canvas>
+	</div>
+<script type="text/javascript" src="js/photo.js"></script>
+</body>
 </html>
-		
