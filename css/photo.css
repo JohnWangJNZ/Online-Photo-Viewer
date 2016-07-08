@@ -1,4 +1,39 @@
-body{
+body,h1,div{
 	margin: 0;
 	padding: 0;
+}
+
+body{
+	background:#333;
+}
+h1{
+	margin: 10px 0;
+	color: #fff;
+	text-align: center;
+}
+#appContainer{
+
+
+	width: 1180px;
+	height: 560px;
+	background: #c3c3c3;
+	margin: 0 auto;
+	position: relative;
+
+}
+#funcBar{
+	position: absolute;
+	width: 180px;
+	height: 100%;
+	background: #f2c312;
+	left: 0;
+	top: 0;
+}
+#canvas{
+	position: absolute;;
+	width: 1000px;
+	height: 100%;
+	background: #fcfcfc;
+	left: 180px;
+	top: 0;
 }
