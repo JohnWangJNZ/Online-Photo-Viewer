@@ -26,14 +26,31 @@ h1{
 	width: 180px;
 	height: 100%;
 	background: #f2c312;
-	left: 0;
-	top: 0;
+
 }
 #canvas{
-	position: absolute;;
-	width: 1000px;
-	height: 100%;
-	background: #fcfcfc;
+	position: absolute;
+	background: #f3f3f3;
 	left: 180px;
-	top: 0;
+
+}
+
+.func-item{
+	width: 100%;
+	
+}
+.func-name{
+	display: block;
+	color: #fff;
+	font-size: 1.2em;
+	padding: 10px;
+}
+
+input[type="range"]{
+	width: 160px;
+}
+
+#note{
+	color: #f32121;
+
 }
